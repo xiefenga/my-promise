@@ -1,0 +1,11 @@
+- 符合 Promise/A+ 规范，通过 promises-aplus-tests 所有测试用例
+- 使用 `queueMicrotask` api
+- 实现了额外的 API
+  - `Promise.prototype.catch`
+  - `Promise.prototype.finally`
+  - `Promise.all`
+  - `Promise.race`
+  - `Promise.allSettled`
+  - `Promise.any`
+  - `Promise.resolve`
+  - `Promise.reject`
