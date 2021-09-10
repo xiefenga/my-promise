@@ -1,0 +1,13 @@
+{
+  "name": "my-promise",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "promises-aplus-tests": "^2.1.2"
+  },
+  "scripts": {
+    "test": "node test/promise.test.js"
+  },
+  "type": "module"
+}
